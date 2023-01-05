@@ -1,8 +1,25 @@
 body {
     background: linear-gradient(225deg, rgb(50, 0, 0), rgb(120, 0, 0)) no-repeat center center fixed;
-    background-size: cover
+    background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
-about-me {
-    
+.card {
+    width: 600px;
+    height: 540px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.card-content {
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: sans-serif;
+}
+
+p {
+    font-size: x-large;
 }

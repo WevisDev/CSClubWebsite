@@ -23,3 +23,13 @@ body {
 p {
     font-size: x-large;
 }
+
+@media screen and (max-width: 675px) {
+    .card {
+        width: 500px;
+        height: 640PX;
+    }
+    .iframe {
+        width: 450px;
+    }
+}
